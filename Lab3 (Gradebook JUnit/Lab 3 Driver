@@ -1,0 +1,11 @@
+public class Lab3Driver {
+ public static void main (String[] args) {
+	 GradeBook g1 = new GradeBook(3);
+	 g1.addScore(75);
+	 g1.addScore(15);
+	 g1.addScore(45);
+	 System.out.println(g1.toString());
+
+	 
+ }
+}
